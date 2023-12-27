@@ -1,19 +1,79 @@
-# Registro Atendimento
-Atendimento Bancário Automatizado
-Trabalho da faculdade sobre agilização no processo de atendimento ao cliente:
+**Registro de Atendimento Bancário Automatizado em C**
 
-Apesar de toda tecnologia disponível nos dias de hoje, o movimento em agências bancárias ainda é muito alto, bancos como Banco do Brasil, Caixa Econômica, Itaú, Bradesco etc. possuem grande movimento de pessoas e também muitas filas, principalmente no começo de mês. Entretanto, nós como profissionais de tecnologia faremos muito ainda para diminuir tais atendimento, tornando tudo mais virtual.
+Este projeto visa criar um sistema simples em linguagem C para o controle de atendimento presencial em agências bancárias. O sistema permite o cadastro de clientes, registro de atendimentos e oferece funcionalidades para listar todos os atendimentos registrados e filtrar por tipo de atendimento.
 
-Em contrapatida, enquanto isso não acontece, você foi contratado por um destes bancos para criar um sistema na linguagem C de controle de atendimento presencial de clientes.
+### Funcionalidades
 
-Funcionalidades do sistema:
+1. **Solicitar Atendimento**
+   - Permite o cadastro de nome, CPF e escolha do setor de atendimento.
 
-• Cadastrar nome, CPF e qual setor de atendimento que deseja ser atendido 1 - Abertura de Conta 2 - Caixa 3 - Gerente Pessoa Física 4 - Gerente Pessoa Jurídica
+2. **Listar Atendimentos Registrados**
+   - Exibe todos os atendimentos registrados.
 
-• Listar todos os atendimentos registrados
+3. **Listar Atendimento por Setor**
+   - Permite ao usuário escolher um tipo de atendimento e exibir apenas os atendimentos desse tipo.
 
-• Listar atendimento por tipo de atendimento: o usuário deve escolhar um dos tipos e, após a leitura, deve-se mostrar a listagem apenas do tipo escolhido
+4. **Sair**
+   - Encerra o programa.
 
-• O sistema deve conter o menu inicial com as seguintes opções: Bem-vindo ao sistema de atendimento 1 - Solicitar Atendimento 2 - Listar Atendimentos Registrados 3 - Listar Atendimento por Setor 4 - Sair
+### Exemplo de Uso
 
-Crie o sistema em sub-rotinas para cada uma das funcionalidades.
+```plaintext
+Bem-vindo ao sistema de atendimento
+1 - Solicitar Atendimento
+2 - Listar Atendimentos Registrados
+3 - Listar Atendimento por Setor
+4 - Sair
+
+Escolha uma opção: 1
+
+Informe o nome do cliente: [Nome]
+Informe o CPF do cliente: [CPF]
+Escolha o tipo de atendimento:
+1 - Abertura de Conta
+2 - Caixa
+3 - Gerente Pessoa Física
+4 - Gerente Pessoa Jurídica
+Digite o número correspondente ao tipo de atendimento: [Número]
+
+Atendimento registrado com sucesso!
+
+...
+
+Escolha uma opção: 2
+
+Listagem de Atendimentos Registrados:
+1. Nome: [Nome1] CPF: [CPF1] Tipo Atendimento: [Tipo1]
+2. Nome: [Nome2] CPF: [CPF2] Tipo Atendimento: [Tipo2]
+...
+
+...
+
+Escolha uma opção: 3
+
+Escolha o tipo de atendimento para listar:
+1 - Abertura de Conta
+2 - Caixa
+3 - Gerente Pessoa Física
+4 - Gerente Pessoa Jurídica
+Digite o número correspondente ao tipo de atendimento: [Número]
+
+Listagem de Atendimentos do Tipo [Tipo]:
+1. Nome: [Nome1] CPF: [CPF1]
+2. Nome: [Nome2] CPF: [CPF2]
+...
+
+...
+
+Escolha uma opção: 4
+
+Sistema encerrado. Obrigado!
+```
+
+### Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, correções ou novas funcionalidades. Abra uma **issue** ou envie um **pull request**.
+
+---
+
+*Este é um exemplo simplificado e deve ser adaptado conforme necessário para atender aos requisitos específicos do projeto.*
